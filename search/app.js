@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import petRoutes from "./pets/routes/pets.routes.js";
+import searchRoutes from "./search/routes/search.routes.js";
 
 const app = express();
 const port = 3000;
@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 /* Routes */
-app.use("/pets", petRoutes);
+app.use("/search", searchRoutes);
 
 /* Server setup */
 if (process.env.NODE_ENV !== "test") {
