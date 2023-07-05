@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import searchRoutes from "./search/routes/search.routes.js";
+import searchRoutes from "./routes/search.routes.mjs";
 
 const app = express();
 const port = 3000;
@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 /* Routes */
-app.use("/search", searchRoutes);
+app.use("/api/search", searchRoutes);
 
 /* Server setup */
 if (process.env.NODE_ENV !== "test") {
