@@ -1,3 +1,4 @@
+# Thanks to https://www.thecloudkeeper.io/how-to-host-a-nodejs-app-on-cloudways/
 # Redirect traffic to your port 3000
 RewriteEngine On
 RewriteBase /
