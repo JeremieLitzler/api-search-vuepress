@@ -2,9 +2,10 @@
   "name": "api-search-vuepress",
   "version": "1.0.0",
   "description": "API to use for a search on a VuePress website",
-  "main": "index.js",
+  "main": "api/app.js",
+  "type": "module",
   "scripts": {
-    "serve": "nodemon \"api/app.mjs\"",
+    "serve": "nodemon \"api/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

@@ -1,4 +1,4 @@
-import db from "../../databases/iamjeremie.me.index.mjs";
+import db from "../../databases/iamjeremie.me.index.js";
 
 export const listResultItems = () => {
   try {

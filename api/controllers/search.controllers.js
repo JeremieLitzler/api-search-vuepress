@@ -1,6 +1,6 @@
 import {
     listResultItems,
-  } from "../models/search.models.mjs";
+  } from "../models/search.models.js";
    
   export const listResults = (req, res) => {
     try {
