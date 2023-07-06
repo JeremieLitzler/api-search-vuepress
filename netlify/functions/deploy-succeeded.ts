@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import serverless from 'serverless-http';
 
 import searchRoutes from "../../api/routes/search.routes.js";
 
