@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import searchRoutes from "./routes/search.routes.js";
+import searchRoutes from "../../api/routes/search.routes.js";
 
 const app = express();
 const port = 3000;
