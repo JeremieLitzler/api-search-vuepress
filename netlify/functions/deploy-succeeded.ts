@@ -6,7 +6,7 @@ import searchRoutes from "../../api/routes/search.routes.js";
 
 const api = express();
 const port = 3000;
-const API_BASE = "search/"
+const API_BASE = "api/"
 
 /* Global middlewares */
 api.use(cors());
