@@ -3,7 +3,7 @@ import cors from "cors";
 
 import searchRoutes from "../../api/routes/search.routes.js";
 
-const app = express();
+const api = express();
 const port = 3000;
 const API_BASE = "search/"
 
