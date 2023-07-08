@@ -1,9 +1,0 @@
-# To make the index.php work
-
-DirectoryIndex
-
-# Thanks to https://www.thecloudkeeper.io/how-to-host-a-nodejs-app-on-cloudways/
-
-# Redirect traffic to your port 3000
-
-RewriteEngine On RewriteBase / RewriteRule ^(.\*)?$ http://127.0.0.1:3000/$1 [P,L]
